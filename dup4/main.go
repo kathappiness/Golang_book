@@ -35,19 +35,3 @@ func main() {
 		}
 	}
 }
-
-// func countLines(f *os.File, counts map[string]int) {
-// 	input := bufio.NewScanner(f)
-// 	for input.Scan() {
-// 		counts[input.Text()]++
-// 	}
-// 	// Ignoring potential errors from input.Err()
-// }
-
-// func locationOfLines(f *os.File, dups map[string]string) {
-// 	input := bufio.NewScanner(f)
-// 	for input.Scan() {
-// 		dups[input.Text()] = f.Name()
-// 	}
-// 	// Ignoring potential errors from input.Err()
-// }
